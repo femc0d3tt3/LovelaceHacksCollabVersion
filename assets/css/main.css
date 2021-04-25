@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
+@import url(https://fonts.googleapis.com/css?family=Bitter);
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -415,6 +415,248 @@ hr {
   text-align: right;
 }
 
+/*About*/
+.about {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  /* width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgb(180, 103, 103);*/
+  padding: 1rem;
+}
+.about blockquote {
+  border-radius: 1px;
+  position: relative; /*  <--- */
+  font-style: italic;
+  text-align: center;
+  padding: 0.5rem 1.2rem;
+  width: 80%; /* create space for the quotes */
+  color: #4a4a4a;
+  margin: 1rem auto 2rem;
+  color: #4a4a4a;
+  background: #b8b2b2;
+  font-size: 18px;
+}
+/* -- create the quotation marks -- */
+.about blockquote:before,
+.about blockquote:after {
+  font-family: FontAwesome;
+  position: absolute;
+  /* -- inside the relative position of blockquote -- */
+  top: 8px;
+  color: #e8e8e8;
+  font-size: 14px;
+}
+.about blockquote:before {
+  content: "\f10d";
+  margin-right: 13px;
+  right: 100%;
+}
+.about blockquote:after {
+  content: "\f10e";
+  margin-left: 13px;
+  left: 100%;
+  top: auto;
+  bottom: 13px;
+}
+
+/*Her Mentorship*/
+.mentorship {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  /* width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgb(180, 103, 103);*/
+  padding: 3rem;
+}
+.mentorship blockquote {
+  border-radius: 3px;
+  position: relative; /*  <--- */
+  font-style: italic;
+  text-align: center;
+  padding: 1rem 1.2rem;
+  width: 80%; /* create space for the quotes */
+  color: #4a4a4a;
+  margin: 1rem auto 2rem;
+  color: #4a4a4a;
+  background: #b8b2b2;
+}
+/* -- create the quotation marks -- */
+.mentorship blockquote:before,
+.mentorship blockquote:after {
+  font-family: FontAwesome;
+  position: absolute;
+  /* -- inside the relative position of blockquote -- */
+  top: 13px;
+  color: #e8e8e8;
+  font-size: 14px;
+}
+.mentorship blockquote:before {
+  content: "\f10d";
+  margin-right: 13px;
+  right: 100%;
+}
+.mentorship blockquote:after {
+  content: "\f10e";
+  margin-left: 13px;
+  left: 100%;
+  top: auto;
+  bottom: 13px;
+}
+
+/* Safety in Resources*/
+.safety {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgb(180, 103, 103);
+  padding: 3rem;
+}
+.safety p {
+  text-rendering: optimizeLegibility;
+}
+.safety blockquote {
+  border-radius: 3px;
+  position: relative; /*  <--- */
+  font-style: italic;
+  text-align: center;
+  padding: 1rem 1.2rem;
+  width: 80%; /* create space for the quotes */
+  color: #4a4a4a;
+  margin: 1rem auto 2rem;
+  color: #4a4a4a;
+  background: #b8b2b2;
+}
+/* -- create the quotation marks -- */
+.safety blockquote:before,
+.safety blockquote:after {
+  font-family: FontAwesome;
+  position: absolute;
+  /* -- inside the relative position of blockquote -- */
+  top: 13px;
+  color: #e8e8e8;
+  font-size: 14px;
+}
+.safety blockquote:before {
+  content: "\f10d";
+  margin-right: 13px;
+  right: 100%;
+}
+.safety blockquote:after {
+  content: "\f10e";
+  margin-left: 13px;
+  left: 100%;
+  top: auto;
+  bottom: 13px;
+}
+.safety h3 {
+  color: #e44d4d;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* mouse over link */
+.safety a:hover {
+  color: hotpink;
+}
+
+/* Collab in Resources*/
+.resources h3 {
+  color: #ca3434f5;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.resources a {
+  /* color: #2c71d8; */
+  font-size: 20px;
+  font-kerning: 12px;
+}
+/* unvisited link */
+.resources a:link {
+  color: red;
+}
+
+/* visited link */
+.resources a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+.resources a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.resources a:active {
+  color: purple;
+}
+
+.resources * {
+  box-sizing: border-box;
+}
+
+.resources html {
+  text-align: center;
+  padding-top: 25px;
+  background: url(https://dl.dropbox.com/s/mz2pjouq8xqw45k/wood_1.png?dl=1);
+}
+
+.resources blockquote {
+  position: relative;
+  display: inline-block;
+  background: rgb(243, 238, 226);
+  padding: 10px 10px 10px 5px;
+  border-radius: 5px;
+  font-family: "Bitter", serif;
+  color: #333;
+  text-align: left;
+
+  box-shadow: 1px 1px 1px #999, 2px 2px 1px #999, 3px 3px 1px #999;
+  transition-duration: 0.3s;
+
+  .resources span.author {
+    position: relative;
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    color: #999;
+
+    .resources i {
+      position: relative;
+      background: #eee;
+      padding-left: 5px;
+      font-style: italic;
+      z-index: 5;
+    }
+
+    .resources span::before {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #ccc;
+      z-index: 1;
+    }
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 5px #999, 2px 2px 6px #999, 3px 3px 7px #999;
+  }
+
+  &::before {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    content: '"';
+    font-family: "Bitter", serif;
+    font-size: 120px;
+    color: #999;
+  }
+}
+
 /* Form */
 
 form {
@@ -488,7 +730,7 @@ form > .fields > .field.quarter {
 }
 
 label {
-  color: #ffffff;
+  color: ##ffffff;
   display: block;
   font-size: 0.8rem;
   font-weight: 300;
@@ -667,6 +909,7 @@ input[type="radio"]:focus + label:before {
 
 input[type="checkbox"] + label:before {
   border-radius: 4px;
+  list-style-type: none;
 }
 
 input[type="radio"] + label:before {
@@ -768,7 +1011,7 @@ input[type="radio"] + label:before {
 .image:before {
   pointer-events: none;
   background-image: url("../../images/overlay.png");
-  background-color: rgba(19, 21, 25, 0.5);
+  background-color: rgba(248, 248, 248, 0.5);
   border-radius: 4px;
   content: "";
   display: block;
@@ -1121,7 +1364,7 @@ table.alt tfoot {
 .center {
   margin: 0;
   position: absolute;
-  top: 105.5%;
+  top: 96.5%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -1425,7 +1668,7 @@ body.is-preload #bg:before {
   left: calc(50% - 1px);
   width: 1px;
   height: calc(3.5rem + 1px);
-  background: #06003d;
+  background: #ffffff;
 }
 
 #header > :first-child {
@@ -1440,7 +1683,7 @@ body.is-preload #bg:before {
   width: 5.5rem;
   height: 5.5rem;
   line-height: 5.5rem;
-  border: solid 1px #06003d;
+  border: solid 1px #ffffff;
   border-radius: 100%;
 }
 
