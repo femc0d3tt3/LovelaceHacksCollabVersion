@@ -465,14 +465,14 @@ hr {
   /* width: 80%;
   margin: 0 auto;
   border: 1px solid rgb(180, 103, 103);*/
-  padding: 3rem;
+  padding: 1rem;
 }
 .mentorship blockquote {
   border-radius: 3px;
   position: relative; /*  <--- */
   font-style: italic;
   text-align: center;
-  padding: 1rem 1.2rem;
+  padding: 0.5rem 1.2rem;
   width: 80%; /* create space for the quotes */
   color: #4a4a4a;
   margin: 1rem auto 2rem;
@@ -1062,12 +1062,13 @@ input[type="radio"] + label:before {
 
 .image.main {
   display: block;
-  margin: 2.5rem 0;
+  margin: 2rem 0;
   width: 100%;
 }
 
 .image.main img {
   width: 100%;
+  padding-top: 0px;
 }
 
 @media screen and (max-width: 736px) {
