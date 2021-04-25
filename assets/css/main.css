@@ -184,7 +184,7 @@ html {
 }
 
 body {
-  background: #1b1f22;
+  background: #0f1a26;
 }
 
 body.is-preload *,
@@ -270,7 +270,7 @@ p {
 
 h1,
 h2 {
-  color: #1a6f72;
+  color: #ff5a5f;
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 1rem 0;
@@ -368,7 +368,7 @@ sup {
 }
 
 blockquote {
-  border-left: solid 4px #ffffff;
+  border-left: solid 4px #0f1a26;
   font-style: italic;
   margin: 0 0 2rem 0;
   padding: 0.5rem 0 0.5rem 2rem;
