@@ -268,7 +268,8 @@ p {
   margin: 0 0 2rem 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #1a6f72;
   font-weight: 600;
   line-height: 1.5;
@@ -1114,6 +1115,17 @@ table.alt tfoot {
 }
 
 /* Button */
+
+/* Button */
+/* Div Button For Mentorship*/
+.center {
+  margin: 0;
+  position: absolute;
+  top: 105.5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 input[type="submit"],
 input[type="reset"],
